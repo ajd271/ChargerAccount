@@ -6,13 +6,13 @@ struct may24: View {
     
     var body: some View {
         
-        // let pdfUrl = URL(string: "https://jonathanbduval.com/pdf/prom.pdf")!
+         let pdfUrl = URL(string: "https://jonathanbduval.com/charger-account/may-2024.pdf")!
 
         
-        let pdfUrl =
-        Bundle.main.url(forResource:
-                                "may-2024", withExtension:
-                                "pdf")!
+        //let pdfUrl =
+        //Bundle.main.url(forResource:
+                              //  "may-2024", withExtension:
+                                //"pdf")!
         VStack() {
             
             Text("May 2024")

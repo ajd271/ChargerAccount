@@ -2,14 +2,13 @@ import SwiftUI
 import PDFKit
 
 
-struct april24: View {
+struct november23: View {
     var body: some View {
-        // let pdfUrl = Bundle.main.url(forResource: "april-2024", withExtension: "pdf")!
-        
-        let pdfUrl = URL(string: "https://jonathanbduval.com/charger-account/april-2024.pdf")!
+     
+        let pdfUrl = URL(string: "https://jonathanbduval.com/charger-account/november-2023.pdf")!
         
         VStack() {
-            Text("April 2024")
+            Text("November 2023")
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
             PDFKitView(url: pdfUrl)
                 .scaledToFill()
@@ -47,7 +46,7 @@ struct april24: View {
 
 
 #Preview {
-    april24()
+    november23()
         .frame(maxHeight: .infinity)
 }
 
