@@ -26,6 +26,14 @@
 		A5C591D72C838B1F007320E4 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C591D62C838B1F007320E4 /* SideMenuHeaderView.swift */; };
 		A5C591DB2C83CC83007320E4 /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C591DA2C83CC83007320E4 /* SideMenuRowView.swift */; };
 		A5C591DD2C83D04E007320E4 /* SideMenuOptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C591DC2C83D04E007320E4 /* SideMenuOptionsModel.swift */; };
+		A5D783E62D2A12F400AD5152 /* september-2023.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A5D783E52D2A12F300AD5152 /* september-2023.pdf */; };
+		A5D783E72D2A12F400AD5152 /* november-2022.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A5D783E32D2A12F300AD5152 /* november-2022.pdf */; };
+		A5D783E82D2A12F400AD5152 /* december-2023.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A5D783E02D2A12F300AD5152 /* december-2023.pdf */; };
+		A5D783E92D2A12F400AD5152 /* december-2022.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A5D783DF2D2A12F300AD5152 /* december-2022.pdf */; };
+		A5D783EA2D2A12F400AD5152 /* november-2023.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A5D783E42D2A12F300AD5152 /* november-2023.pdf */; };
+		A5D783ED2D2A12F400AD5152 /* february-2024.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A5D783E12D2A12F300AD5152 /* february-2024.pdf */; };
+		A5D783F02D2A137000AD5152 /* april-2024.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A5D783EE2D2A137000AD5152 /* april-2024.pdf */; };
+		A5D783F12D2A137000AD5152 /* may-2024.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A5D783EF2D2A137000AD5152 /* may-2024.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +77,14 @@
 		A5C591D62C838B1F007320E4 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
 		A5C591DA2C83CC83007320E4 /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
 		A5C591DC2C83D04E007320E4 /* SideMenuOptionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionsModel.swift; sourceTree = "<group>"; };
+		A5D783DF2D2A12F300AD5152 /* december-2022.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "december-2022.pdf"; sourceTree = "<group>"; };
+		A5D783E02D2A12F300AD5152 /* december-2023.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "december-2023.pdf"; sourceTree = "<group>"; };
+		A5D783E12D2A12F300AD5152 /* february-2024.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "february-2024.pdf"; sourceTree = "<group>"; };
+		A5D783E32D2A12F300AD5152 /* november-2022.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "november-2022.pdf"; sourceTree = "<group>"; };
+		A5D783E42D2A12F300AD5152 /* november-2023.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "november-2023.pdf"; sourceTree = "<group>"; };
+		A5D783E52D2A12F300AD5152 /* september-2023.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "september-2023.pdf"; sourceTree = "<group>"; };
+		A5D783EE2D2A137000AD5152 /* april-2024.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "april-2024.pdf"; sourceTree = "<group>"; };
+		A5D783EF2D2A137000AD5152 /* may-2024.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "may-2024.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +201,14 @@
 		A5C591E62C84A1E8007320E4 /* NewspaperPDFs */ = {
 			isa = PBXGroup;
 			children = (
+				A5D783DF2D2A12F300AD5152 /* december-2022.pdf */,
+				A5D783E02D2A12F300AD5152 /* december-2023.pdf */,
+				A5D783E12D2A12F300AD5152 /* february-2024.pdf */,
+				A5D783E32D2A12F300AD5152 /* november-2022.pdf */,
+				A5D783E42D2A12F300AD5152 /* november-2023.pdf */,
+				A5D783E52D2A12F300AD5152 /* september-2023.pdf */,
+				A5D783EE2D2A137000AD5152 /* april-2024.pdf */,
+				A5D783EF2D2A137000AD5152 /* may-2024.pdf */,
 			);
 			path = NewspaperPDFs;
 			sourceTree = "<group>";
@@ -253,7 +277,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					A503D9702C7C2BD5005EF8B6 = {
 						CreatedOnToolsVersion = 15.4;
@@ -294,6 +318,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A503D97C2C7C2BD8005EF8B6 /* Preview Assets.xcassets in Resources */,
+				A5D783F02D2A137000AD5152 /* april-2024.pdf in Resources */,
+				A5D783F12D2A137000AD5152 /* may-2024.pdf in Resources */,
+				A5D783E62D2A12F400AD5152 /* september-2023.pdf in Resources */,
+				A5D783E72D2A12F400AD5152 /* november-2022.pdf in Resources */,
+				A5D783E82D2A12F400AD5152 /* december-2023.pdf in Resources */,
+				A5D783E92D2A12F400AD5152 /* december-2022.pdf in Resources */,
+				A5D783EA2D2A12F400AD5152 /* november-2023.pdf in Resources */,
+				A5D783ED2D2A12F400AD5152 /* february-2024.pdf in Resources */,
 				A503D9792C7C2BD8005EF8B6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,7 +543,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = name.OnboardingFlow;
+				PRODUCT_BUNDLE_IDENTIFIER = name.charger.account;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -542,7 +574,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = name.OnboardingFlow;
+				PRODUCT_BUNDLE_IDENTIFIER = name.charger.account;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -553,7 +585,6 @@
 		A503D9992C7C2BDB005EF8B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -573,7 +604,6 @@
 		A503D99A2C7C2BDB005EF8B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -593,7 +623,6 @@
 		A503D99C2C7C2BDB005EF8B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 38D59X989T;
@@ -611,7 +640,6 @@
 		A503D99D2C7C2BDB005EF8B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 38D59X989T;

@@ -5,7 +5,9 @@ import PDFKit
 struct february24: View {
     var body: some View {
      
-        let pdfUrl = URL(string: "https://jonathanbduval.com/charger-account/february-2024.pdf")!
+        let pdfUrl = Bundle.main.url(forResource: "february-2024", withExtension: "pdf")!
+        
+        //let pdfUrl = URL(string: "https://jonathanbduval.com/charger-account/february-2024.pdf")!
         
         VStack() {
             Text("February 2024")

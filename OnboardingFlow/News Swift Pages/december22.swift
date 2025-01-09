@@ -6,9 +6,9 @@ struct december22: View {
     
     var body: some View {
         
-        //let pdfUrl = Bundle.main.url(forResource: "december-2022", withExtension: "pdf")!
+        let pdfUrl = Bundle.main.url(forResource: "december-2022", withExtension: "pdf")!
         
-        let pdfUrl = URL(string: "https://jonathanbduval.com/charger-account/december-2022.pdf")!
+       // let pdfUrl = URL(string: "https://jonathanbduval.com/charger-account/december-2022.pdf")!
         
         VStack() {
             
